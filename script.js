@@ -28,7 +28,7 @@
   });
   
   /**/
-  document.getElementById("two").addEventListener("mouseover", function() {
+  document.getElementById("two").addEventListener("click", function() {
     var button = this;
     var windowWidth = window.innerWidth;
     var windowHeight = window.innerHeight;
