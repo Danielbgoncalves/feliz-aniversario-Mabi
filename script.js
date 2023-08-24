@@ -1,5 +1,5 @@
-
-  document.getElementById("one").addEventListener("mouseover", function() {
+//botao "É VOCE"
+  document.getElementById("one").addEventListener("click", function() {
     var gifs = [
         "./gifs/wired-gradient-1103-confetti.gif",
         "./gifs/wired-gradient-261-emoji-smile.gif",
@@ -27,8 +27,8 @@
     });
   });
   
-  /**/
-  document.getElementById("two").addEventListener("click", function() {
+  // botão "NÃO É VOCÊ"
+  document.getElementById("two").addEventListener("mouseover", function() {
     var button = this;
     var windowWidth = window.innerWidth;
     var windowHeight = window.innerHeight;
