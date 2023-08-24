@@ -1,5 +1,5 @@
 
-  document.getElementById("one").addEventListener("click", function() {
+  document.getElementById("one").addEventListener("mouseover", function() {
     var gifs = [
         "./gifs/wired-gradient-1103-confetti.gif",
         "./gifs/wired-gradient-261-emoji-smile.gif",
